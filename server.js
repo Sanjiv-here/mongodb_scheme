@@ -33,7 +33,7 @@ async function postSignup(req, res) {
     let user = await userModel.create(obj);
 
     res.json({
-      message: "User signed up",
+      message: "User signed up just now",
       data: user
     });
   } catch (err) {
